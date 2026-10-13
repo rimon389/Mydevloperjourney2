@@ -241,10 +241,12 @@ tbody tr:hover{
 }
 .c-registration{
    background-color: #FFF0F0;
+   
 }
 .registration {
     width: 1140px;
     margin: 0 auto;
+    margin-bottom: 10px;
    
 }
 .registration h2{
@@ -274,4 +276,86 @@ tbody tr:hover{
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+.form-radio{
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+   
+    
+}
+.radio-container{
+     display: flex;
+     margin-left: 10px;
+     justify-content: space-between;
+     margin-bottom: 10px;
+}
+.radio-value input{
+  padding: 10px;
+}
+.radio-value .i-value{
+    display: flex;
+    gap: 20px;
+}
+.message-group{
+   
+    margin-left: 10px;
+}
+.message-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.message-group textarea:focus {
+    border-color: #8b9cf5;
+}
+.message textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px ;
+}
+.contact-section , .contact-container{
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.contact-section h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.contact-info a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-color: black;
+}
+.footer-container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer-container .menu-footer{
+    display: flex;
+    gap: 10px;
+}
+.footer-container .menu-footer a{
+    text-decoration: none;
+    color: white;
+    
 }

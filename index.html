@@ -6,6 +6,8 @@
     <title>MyDevloperJourney</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/5e08408041.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
@@ -17,11 +19,11 @@
             </div>
             <div class="menubar">
                
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Learning skills</a></li>
-                <li><a href="#">Registration</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skils">Skills</a></li>
+                <li><a href="#Learning">Learning skills</a></li>
+                <li><a href="#registration">Registration</a></li>
+                <li><a href="#Contact">Contact</a></li>
                 <button class="btn">Details Page <img src="images/ArrowRight.png" alt=""></button>
             </div>
           </div>
@@ -43,7 +45,7 @@
                 <img src="images/profile.png" alt="">
         </div>
     </section>
-    <section class="ab-container">
+    <section id="About" class="ab-container">
         <div class="abm-container">
             <div class="abt">
                 <h2>About Me</h2>
@@ -98,7 +100,7 @@
       
         
     </section>
-    <section class="skill">
+    <section id="Skils"  class="skill">
         
         <div class="skill-container">
             <div class="skill-know">
@@ -120,7 +122,7 @@
         </div>
 
     </section>
-    <section class="mylearnig">
+    <section id="Learning" class="mylearnig">
         <div class="learning-se">
             <h2>My Learning Schedule</h2>
         <table>
@@ -168,7 +170,7 @@
                 
         
     </section>
-    <section class="c-registration">
+    <section id="registration" class="c-registration">
         <div class="registration">
             <h2>Course Registration</h2>
             <form action="">
@@ -187,13 +189,124 @@
             </div>
         <div class="formc">
                 <label for="date">Date of Birth*</label> 
-            <input type="date" name="daete" id="date" placeholder="Enter Your Date">
+            <input type="date" name="date" id="date" placeholder="Enter Your Date">
 
         </div>
-        
+         
             </form>
         </div>
+        
+        <div class="form-radio">
+            <div class="radio-container">
+                <div class="radio-value">
+                 <div><label>Gender*</label></div>
+                <input type="radio" name="gender" id="male" value="Male" required>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="fmale" value="female" >
+                <label for="fmale">Female</label>
+                <input type="radio" name="gender" id="other" value="other" >
+                <label for="other">Prefer not to say</label>
+            </div>
+            <div class="cskill">
+                <label for="">Current Skill Level*</label>
+                <div class="skill-l">
+                    <select name="" id="skill-level">
+                    <option value="">Beginner</option>
+                    <option value="">Intermaddite</option>
+                    <option value="">Advanced</option>
+                </select>
+                </div>
+            </div>
+            <div class="check-box">
+                <label for="">Interested Topics*</label>
+                <div class="check-b">
+                    <input type="checkbox" name="html" id="html">
+                    <label for="html">HTML</label>
+                     <input type="checkbox" name="css" id="css">
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="javas" id="javas">
+                    <label for="javs">Javasrcipt</label>
+                    <input type="checkbox" name="checkbox" id="react">
+                    <label for="check">React</label>
+                   
+                </div>
+            </div>
+            </div>
+            <div class="message-group">
+                <label for="messag">
+                     Why do you want to learn web development?
+                </label>
+                <div class="message">
+                    <textarea rows="2" cols="1" name="" id="messag" placeholder="Write Your Messsage"></textarea>
+                </div>
+                <button class="btn">Register Now</button>
+            </div>
+        </div>
+     
+    </section>
+    <section id="Contact" class="contact-section">
+         <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-item">
+                <div class="contact-img">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="contact-info">
+                    <h4>Email</h4>
+                     <a href="mdr649895@email.com">mdr649895@email.com</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-img">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="contact-info">
+                    <h4>Phone</h4>
+                    <p>+8801610813438</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-img">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="contact-info">
+                    <h4>Github</h4>
+                    <a href="https://github.com/rimon389">https://github.com/rimon389</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-img">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="contact-info">
+                    <h4>Linkedin</h4>
+                    <p>linkedin.com/rimon389</p>
+                </div>
+            </div>
+
+
+        </div>
+
 
     </section>
+    <footer>
+        <div class="footer-container">
+            <div class="site-name">
+                <h3>MyDevloperJourney</h3>
+               
+            </div>
+            <div class="copy">
+                 <p>&copy; 2026 Rimon Hasan.All rights reserved</p>
+            </div>
+            <div class="menu-footer">
+              <div> <a href="">Home</a></div>
+               <div><a href="">About</a></div>
+               <div><a href="">Contact</a></div>
+            </div>
+
+        </div>
+    </footer>
+    
+        
 </body>
 </html>
